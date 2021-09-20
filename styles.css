@@ -1,0 +1,31 @@
+body {
+  background-color: #9dfdc7;
+  font-family: "Mulish", sans-serif;
+  margin: 0 10%;
+}
+
+h1 {
+  color: #290fba;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+}
+
+.container {
+  padding: 1px;
+  background-color: pink;
+  text-align: center;
+}
+
+.color-container {
+  width: 100%;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+  background-color: white;
+}
