@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  color: #290fba;
+  color: black;
   font-weight: 900;
   font-size: 50px;
   text-align: center;
@@ -13,8 +13,12 @@ h1 {
 
 .container {
   padding: 1px;
-  background-color: pink;
+  background-color: #FFEDDA;
   text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 3px;
+  margin: 10px 0px;
 }
 
 .color-container {
@@ -24,8 +28,29 @@ h1 {
 .color-panel {
   display: inline-block;
   width: 49%;
+  border: 1px solid black;
   text-align: center;
   margin: 20px auto;
   min-height: 100px;
-  background-color: white;
+  /*background-color: white;*/
+}
+
+.border{
+  border-radius: 5px;
+}
+
+.ocean-blue{
+    background-color: #64C9CF;
+}
+
+.sand{
+    background-color: #FDE49C;
+}
+
+.sunlight{
+    background-color: #FFB740;
+}
+
+.earth{
+    background-color: #DF711B;
 }
