@@ -9,6 +9,15 @@ h1 {
   font-weight: 900;
   font-size: 50px;
   text-align: center;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2r9//38gYGAEESAAEGAAasgJOgzOKCoAAAAASUVORK5CYII=);
+
+}
+h2{
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2r9//38gYGAEESAAEGAAasgJOgzOKCoAAAAASUVORK5CYII=);
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin: 10px auto;
 }
 
 .container {
@@ -53,4 +62,45 @@ h1 {
 
 .earth{
     background-color: #DF711B;
+}
+
+.font-panel{
+  width: 50%;
+  display: inline-block;
+  margin: 10px 15px;  
+  border: 1px solid black;
+  background-color: white;
+}
+
+.font-label{
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.regular{
+  font-style: normal;
+}
+
+.bold{
+  font-weight: 800;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.ubuntu-mono{
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.source-code-pro{
+  font-family: 'Source Code Pro', monospace;
+}
+
+.roboto-mono{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.inconsolata{
+  font-family: 'Inconsolata', monospace;
 }
