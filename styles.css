@@ -4,7 +4,7 @@ body {
   margin: 0 10%;
 }
 
-h1 {
+h1.heading {
   color: black;
   font-weight: 900;
   font-size: 50px;
@@ -12,10 +12,10 @@ h1 {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2r9//38gYGAEESAAEGAAasgJOgzOKCoAAAAASUVORK5CYII=);
 
 }
-h2{
+h2.subheading{
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2r9//38gYGAEESAAEGAAasgJOgzOKCoAAAAASUVORK5CYII=);
   display: block;
-  width: 100px;
+  width: 150px;
   text-align: center;
   margin: 10px auto;
 }
@@ -64,7 +64,7 @@ h2{
     background-color: #DF711B;
 }
 
-.font-panel{
+.panel{
   width: 50%;
   display: inline-block;
   margin: 10px 15px;  
@@ -104,3 +104,25 @@ h2{
 .inconsolata{
   font-family: 'Inconsolata', monospace;
 }
+
+.panel ul{
+  text-align: left ;
+}
+
+.text-heading{
+  font-family: 'Roboto Mono', monospace;
+  font-size: large;
+  font-weight: 800;
+}
+
+.text-subheading{
+  font-family: 'Inconsolata', monospace;
+  font-size: large;
+  font-weight: 600;
+}
+
+.paragraph{
+  font-family: 'Source Code Pro', monospace;
+  font-size: large;
+  font-weight: 500;
+} 
